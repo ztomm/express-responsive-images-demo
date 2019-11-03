@@ -2,14 +2,17 @@
 
 A minimal application to demonstrate the express-responsive-images module.  
 
-## install
+## usage
 
+clone repo  
+```bash
+git clone https://github.com/xkmgt/express-responsive-images-demo.git
+```
+install  
 ```bash
 npm i express-responsive-images-demo
 ```
-
-## start
-
+run  
 ```bash
 npm run start
 ```
