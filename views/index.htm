@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>DEMO express-responsive-images</title>
+
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            font-size: 1em;
+            line-height: 1.44;
+            font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            color: #333; 
+            letter-spacing: 0.05rem; }
+
+        h1, h2 { text-transform: uppercase; }
+        a {
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        section {
+            margin: 2rem 0;
+            padding: 1rem 0;
+            background: #efefef;
+        }
+    </style>
+
+    <script>
+        document.cookie = 'screen=' + ('devicePixelRatio' in window ? devicePixelRatio : 1) + ',' + window.innerWidth + '; path=/';
+    </script>
+
+</head>
+<body>
+
+    <h1>DEMO express-responsive-images</h1>
+    <p><i>bird.jpg has a dimension of 4000x2000px and is stored in /public/images folder.</i></p>
+    <p>In the /public directory you will find a newly created folder: images-cache. Resize the window, reload the page and see the /public directory what happened.</p>
+
+    <section>
+        <img src="/images/bird.jpg">
+        <p>Code: &lt;img src="/images/bird.jpg"&gt;</p>
+        <p>This image is scaled to the window width and is cached in /public/images-cache/...</p>
+    </section>
+
+    <section>
+        <img src="/images/bird.jpg?w=200">
+        <p>Code: &lt;img src="/images/bird.jpg?w=200"&gt;</p>
+        <p>This image is scaled to 200px in width and is cached in /public/images-cache/200/bird.jpg</p>
+    </section>
+
+    <section>
+        <img src="/images/bird.jpg?w=400">
+        <p>Code: &lt;img src="/images/bird.jpg?w=400"&gt;</p>
+        <p>This image is scaled to 400px in width and is cached in /public/images-cache/400/bird.jpg</p>
+    </section>
+
+    <p>Docs on: <a href="https://github.com/xkmgt/express-responsive-images" title="">github</a> and <a href="https://www.npmjs.com/package/express-responsive-images" title="">npm</a></p>
+
+</body>
+</html>
