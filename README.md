@@ -14,7 +14,7 @@ cd express-responsive-images-demo
 ```
 install  
 ```bash
-npm i express-responsive-images-demo
+npm i
 ```
 run  
 ```bash
