@@ -12,6 +12,10 @@ install
 ```bash
 npm i express-responsive-images-demo
 ```
+cd into the folder  
+```bash
+cd express-responsive-images-demo
+```
 run  
 ```bash
 npm run start
