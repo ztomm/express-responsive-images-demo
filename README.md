@@ -8,13 +8,13 @@ clone repo
 ```bash
 git clone https://github.com/xkmgt/express-responsive-images-demo.git
 ```
-install  
-```bash
-npm i express-responsive-images-demo
-```
 cd into the folder  
 ```bash
 cd express-responsive-images-demo
+```
+install  
+```bash
+npm i express-responsive-images-demo
 ```
 run  
 ```bash
