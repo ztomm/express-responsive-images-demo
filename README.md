@@ -1,6 +1,6 @@
 # express-responsive-images DEMO
 
-A minimal application to demonstrate the express-responsive-images module.  
+A minimal application to demonstrate the [express-responsive-images](https://github.com/xkmgt/express-responsive-images) module.  
 
 ## usage
 
