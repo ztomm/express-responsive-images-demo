@@ -1,16 +1,16 @@
 {
-  "name": "express-responsive-images-demo",
-  "version": "0.0.0",
-  "description": "Minimal demo application for express-responsive-images module.",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "author": "Murat Karaca <dev@muratkaraca.de> (https://www.kmgt.de)",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-responsive-images": "^1.0.5",
-    "express-static": "^1.2.6",
-    "morgan": "^1.9.1"
-  }
+	"name": "express-responsive-images-demo",
+	"version": "0.0.0",
+	"description": "Minimal demo application for express-responsive-images module.",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Murat Karaca <dev@muratkaraca.de> (https://www.kmgt.de)",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-responsive-images": "*",
+		"express-static": "^1.2.6",
+		"morgan": "^1.9.1"
+	}
 }
