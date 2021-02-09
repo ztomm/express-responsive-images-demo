@@ -35,6 +35,6 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 
 // start express server
 app.listen(app.get('port'), () => {
-	console.log(`App is running at ${app.get('host')}:${app.get('port')}`);
+	console.log(`App is running at http://${app.get('host')}:${app.get('port')}`);
 	console.log(`Press CTRL-C to stop\n`);
 });

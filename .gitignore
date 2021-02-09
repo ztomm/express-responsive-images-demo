@@ -12,6 +12,7 @@ pids
 logs
 results
 tmp
+public/*cache
 
 package-lock.json
 
