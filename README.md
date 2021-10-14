@@ -21,7 +21,7 @@ run
 npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in browser.  
+Open [http://localhost:5001](http://localhost:5001) in browser.  
 
 In the `public` directory you will find a newly created folder: `images-cache`. Resize the browser window, reload the page and see the `public` directory what happened.  
 

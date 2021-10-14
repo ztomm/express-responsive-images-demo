@@ -4,7 +4,7 @@ const logger = require('morgan')
 
 const app = express();
 app.set('host', 'localhost');
-app.set('port', 3000);
+app.set('port', 5001);
 
 app.use(logger('tiny'))
 
