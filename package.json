@@ -8,8 +8,8 @@
 	"author": "Murat Motz <dev@ztom.de> (https://www.kmgt.de)",
 	"license": "MIT",
 	"dependencies": {
-		"express": "^4.17.3",
-		"express-responsive-images": "^1.5.7",
+		"express": "^4.18.1",
+		"express-responsive-images": "^1.5.9",
 		"express-static": "^1.2.6",
 		"morgan": "^1.10.0"
 	}
