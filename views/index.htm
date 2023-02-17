@@ -47,26 +47,26 @@
 
 <body>
 
-	<h1>DEMO express-responsive-images</h1>
+	<h1>DEMO for npm module <i>express-responsive-images</i></h1>
 	<p><i>bird.jpg has a dimension of 4000x2000px and is stored in /public/images folder.</i></p>
-	<p>In the /public directory you will find a newly created folder: images-cache. Resize the window, reload the page and see the /public directory what happened.</p>
+	<p>After the first visit to this page, the /public/images-cache directory was created. Resize the window, reload the page and observe the cache folder. Depending on the configuration, smaller images may be cached.</p>
 
 	<section>
 		<img src="/images/bird.jpg">
-		<p>Code: &lt;img src="/images/bird.jpg"&gt;</p>
-		<p>This image is scaled to the window width and is cached in /public/images-cache/...</p>
+		<p><code>&lt;img src="/images/bird.jpg"&gt;</code></p>
+		<p>This copy of bird.jpg is scaled to the window width and is cached in /public/images-cache/...</p>
 	</section>
 
 	<section>
 		<img src="/images/bird.jpg?w=200">
-		<p>Code: &lt;img src="/images/bird.jpg?w=200"&gt;</p>
-		<p>This image is scaled to 200px in width and is cached in /public/images-cache/200/bird.jpg</p>
+		<p><code>&lt;img src="/images/bird.jpg?w=200"&gt;</code></p>
+		<p>This copy of bird.jpg is scaled to 200px in width and is cached in /public/images-cache/200/bird.jpg</p>
 	</section>
 
 	<section>
 		<img src="/images/bird.jpg?w=400">
-		<p>Code: &lt;img src="/images/bird.jpg?w=400"&gt;</p>
-		<p>This image is scaled to 400px in width and is cached in /public/images-cache/400/bird.jpg</p>
+		<p><code>&lt;img src="/images/bird.jpg?w=400"&gt;</code></p>
+		<p>This copy of bird.jpg is scaled to 400px in width and is cached in /public/images-cache/400/bird.jpg</p>
 	</section>
 
 	<p>Docs on: <a href="https://github.com/xkmgt/express-responsive-images" title="">github</a> and <a href="https://www.npmjs.com/package/express-responsive-images" title="">npm</a></p>
